@@ -1,4 +1,4 @@
-class puppetdev {
+class puppetdep {
   if $environment == 'production' {
     notify { 'default-message':
       message => 'This is the production environment'
