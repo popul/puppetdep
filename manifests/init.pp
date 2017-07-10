@@ -1,5 +1,5 @@
 class puppetdep {
-  include puppetdeb::installgit
+  include puppetdep::installgit
   if $environment == 'production' {
     notify { 'default-message':
       message => 'This is the production environment'
