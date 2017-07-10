@@ -1,0 +1,5 @@
+fixtures:
+  forge_modules:
+    git:
+      repo: "puppetlabs/git" 
+      ref: "0.5.0"
